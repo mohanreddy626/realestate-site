@@ -1,0 +1,8 @@
+.list-unstyled li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.d-flex .image{
+    width: 250px;
+}

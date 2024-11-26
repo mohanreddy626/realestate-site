@@ -1,0 +1,27 @@
+.text-start ul {
+    list-style-type: none;
+}
+.text-start ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+.text-start ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li{
+    padding: 0 20px;
+    
+}
+li .bi{
+  margin-right: 20px;
+
+}
+
+.add-one{
+    display: flex;
+    flex-direction: column;
+}

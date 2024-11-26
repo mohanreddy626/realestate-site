@@ -1,0 +1,36 @@
+.image{
+    height: 200px;
+}
+
+.cards{
+    position: static;
+    height: 100%;
+
+}
+
+.abt2{
+    background-color:  #F6F1ED ;
+
+}
+
+.mission{
+    background-color: rgb(183, 148, 102);
+}
+
+.fi{
+    color: rgb(69, 126, 224);
+    font-size: 60px;
+}
+
+.mission i{
+    color: white;
+}
+
+.text-dark:hover .mb-4 {
+    color: #3886d9; /* Change to any color you prefer */
+    transition: color 0.3s ease; /* Optional: Smooth color transition */
+}
+.text-white:hover .mb-4 {
+    color: #000000; /* Change to any color you prefer */
+    transition: color 0.3s ease; /* Optional: Smooth color transition */
+}

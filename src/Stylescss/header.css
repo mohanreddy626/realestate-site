@@ -1,0 +1,165 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: #173E62B5;
+  position: fixed;
+  padding: 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.img-sec {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/homebg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-nav{
+  margin-right: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+.navbar-nav li .nav-link {
+  color: #fff7f7;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 14px 16px;
+  margin: 0 10px;
+}
+
+.navbar-nav li .nav-link:hover {
+  color: #00FFFF;
+}
+
+.logo{
+  height: 105px;
+}
+
+.contact-us{
+  text-align: center;
+  /* margin-top: 15px; */
+}
+
+.contact-us a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item{
+  color: rgb(23, 156, 193);
+}
+
+.dropdown-item:hover{
+   color: rgb(8, 30, 33);
+}
+
+.dropdown-toggle:hover .dropdown-menu{
+  display: block;
+}
+
+/* whoweare .............................................................. */
+
+.container {
+  text-align: center;
+  transition: ease-in-out,transform 0.5s ;
+}
+
+.col-lg-4{
+  text-align: justify;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(50, 103, 188);
+}
+
+.main-text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgb(3, 94, 136);
+  text-align: left;
+  word-spacing: 0;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.number-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+
+.number {
+  font-weight: bold;
+  font-size: 125px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(50, 103, 188);
+}
+
+.label {
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+/* Bootstrap for responsiveness */
+@media (max-width: 768px) {
+  .numbers-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* Homerow1................................................... */
+
+.home-rowone {
+  align-items: center;
+  background-image: linear-gradient(to right, white 0%, white 30%,  #F6F1ED 30%,  #F6F1ED 100%);
+  
+}
+
+@media (max-width: 820px) {
+  .home-rowone {
+    background-image: linear-gradient(to right,  #F6F1ED  0%, #F6F1ED 100%);
+  }
+
+}
+
+ .bhramara p{
+   color: rgb(132, 132, 132);
+}
+
+.bhramara h2{
+  color:  rgb(3, 94, 136);
+}
+
+/* Homerow2........................................................ */
+
+.card-hr2{
+  position: static;
+  border: none;
+}
